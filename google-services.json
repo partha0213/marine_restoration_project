@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125870998411",
+    "project_id": "marinerestorationapp",
+    "storage_bucket": "marinerestorationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125870998411:android:687152d964a3fa4b4c658e",
+        "android_client_info": {
+          "package_name": "Marinerestoration.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125870998411-52h99oeofi9rd265o6t91k8625jdu33h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxZL38QimaNMRUS1w5F53xZJEYSjXHfvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125870998411-52h99oeofi9rd265o6t91k8625jdu33h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

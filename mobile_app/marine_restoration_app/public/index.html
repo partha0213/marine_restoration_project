@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Marine Ecosystem Restoration Project (MERP) – A web platform for monitoring and restoring marine ecosystems" />
+    <meta name="keywords" content="marine restoration, ecosystem, pollution monitoring, biodiversity, marine conservation" />
+    <meta name="author" content="MERP Team" />
+
+    <!-- Open Graph Meta Tags for better social sharing -->
+    <meta property="og:title" content="Marine Ecosystem Restoration Project (MERP)" />
+    <meta property="og:description" content="Join our efforts in restoring and preserving marine biodiversity by monitoring and mitigating pollution." />
+    <meta property="og:image" content="%PUBLIC_URL%/images/merp_social_share.png" />
+    <meta property="og:url" content="https://www.merp-platform.org" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Data for better sharing on Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Marine Ecosystem Restoration Project (MERP)" />
+    <meta name="twitter:description" content="Contribute to marine restoration efforts and pollution monitoring with the MERP platform." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/images/merp_twitter_card.png" />
+
+    <title>MERP - Marine Ecosystem Restoration Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Preconnect to external resources for performance (e.g., Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load fonts (example using Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- External Stylesheets (if any) -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/global.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom JS for Google Maps or any external services (like analytics) -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    
+    <!-- Manifest for PWA (Progressive Web App) setup, if needed -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Main React app container -->
+    <div id="root"></div>
+
+    <!-- Load analytics script (example Google Analytics) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXXX-X');
+    </script>
+
+    <!-- External JavaScript Files (if any) -->
+    <script src="%PUBLIC_URL%/js/external-script.js"></script>
+  </body>
+</html>

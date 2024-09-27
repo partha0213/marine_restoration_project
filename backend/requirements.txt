@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+motor
+jose
+passlib
+pytest
+pip install -r requirements.txt

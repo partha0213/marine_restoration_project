@@ -1,0 +1,54 @@
+{
+  "name": "marine_restorationapp",
+  "version": "1.0.0",
+  "description": "A mobile application for reporting pollution incidents and visualizing marine ecosystem health.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,json,css}"
+  },
+  "keywords": [
+    "react",
+    "marine",
+    "pollution",
+    "ecosystem",
+    "restoration"
+  ],
+  "author": "PARTHASARATHY",
+  "license": "MIT",
+  "homepage": "/",
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.7.7",
+    "chart.js": "^3.9.1",
+    "dotenv": "^16.0.0",
+    "firebase": "^10.13.2",
+    "mongoose": "^8.6.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "prettier": "^2.8.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
